@@ -10,7 +10,6 @@
 
 namespace Kruskal {
   int V{5};
-  int E{7};
   
   int find(int x, std::vector<int>& p) {
     if(p[x] != x) {

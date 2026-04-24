@@ -10,7 +10,7 @@
 namespace Dijksrta {
   int size{5};
 
-  void algortihm() {
+  void algorithm() {
     // Vertices are each index of the vector while the vector of pairs are the edges 
     std::vector<std::vector<std::pair<int,int>>> ad(size);
     // Creating edges
